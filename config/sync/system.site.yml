@@ -3,12 +3,12 @@ _core:
 langcode: en
 uuid: 4201a0dd-5379-4a1e-a22b-c3442c3bb67e
 name: 'Landschap Oost'
-mail: admin@example.com
+mail: landschapoost@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
