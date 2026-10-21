@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+## Description: Security advisories plus available updates for core, contrib and Drush
+## Usage: check-updates
+## Example: ddev check-updates
+
+echo "== Security advisories =="
+composer audit
+echo
+echo "== Updates for core, contrib and Drush =="
+composer outdated --direct
